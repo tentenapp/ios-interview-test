@@ -34,12 +34,17 @@ let package = Package(
       dependencies: ["TinyComponentsKit"],
       resources: [.process("./Resources")]
     ),
+    .target(
+      name: "Settings",
+      dependencies: ["TinyComponentsKit"]
+    ),
 
     .target(
       name: "ios-interview-test",
       dependencies: [
         "ConnectionIndicator",
         "FriendList",
+        "Settings",
         "TinyComponentsKit",
       ]
     ),
