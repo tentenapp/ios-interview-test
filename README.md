@@ -1,4 +1,12 @@
-# ios-interview-test
+<h1 align="center">
+  <br>
+  Ten Ten iOS Engineer Interview
+  <br>
+</h1>
+<p align="center">
+  <a href="https://tenten.app"><img src="./.assets/logo.png" alt="Ten Ten logo" width="120"></a>
+</p>
+<br>
 
 There is a number of `TODO` and `FIXME` throughout the code that you must implement or fix.
 
@@ -28,3 +36,12 @@ Shoot us an email at
 
 <img src="./.assets/mail-dark.png#gh-dark-mode-only" alt="Email" width="100"/>
 <img src="./.assets/mail-light.png#gh-light-mode-only" alt="Email" width="100"/>
+
+
+<h3 align="center">
+  <br>
+  <hr>
+    *Kkrshhtzz*
+  <br>
+    Over! ✌️
+</h3>
