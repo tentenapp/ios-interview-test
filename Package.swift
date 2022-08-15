@@ -1,6 +1,8 @@
 // swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
+//  Copyright © 2022 Ten Ten. All rights reserved.
+
 import PackageDescription
 
 let package = Package(

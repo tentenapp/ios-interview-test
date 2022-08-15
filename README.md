@@ -19,3 +19,12 @@ There are a few tasks to perform:
 - This test is designed to challenge your knowledge of the Swift ecosystem, Swift itself and SwiftUI
 - Feel free to add any amount of testing, ...etc
 - It's okay if you don't do it all !
+
+## Spontaneous applications
+
+Interested in working with us? We're always looking for talents!
+
+Shoot us an email at
+
+<img src="./.assets/mail-dark.png#gh-dark-mode-only" alt="Email" width="100"/>
+<img src="./.assets/mail-light.png#gh-light-mode-only" alt="Email" width="100"/>
