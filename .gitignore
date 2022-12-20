@@ -6,3 +6,24 @@ DerivedData/
 .swiftpm/config/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+
+# Bazel
+
+*~
+.*.swp
+/.aswb/
+/.cache/
+/.classpath
+/.clwb/
+/.factorypath
+/.idea/
+/.ijwb/
+/.project
+/.settings
+/.vscode/
+/bazel.iml
+/bazel-*
+/output/
+/production
+/.sass-cache
+user.bazelrc
