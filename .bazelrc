@@ -1,0 +1,39 @@
+# Enables C++ 17 on all builds
+build --cxxopt=-std=c++17
+
+# Sets the default Apple platform to iOS
+# and disables Bitcode since it's no longer supported by Apple.
+build --apple_platform_type=ios
+build --apple_bitcode=none
+
+# Swift settings
+build --swiftcopt=-whole-module-optimization
+build --strategy=SwiftCompile=standalone
+build --features=swift.cacheable_swiftmodules
+build --objc_enable_binary_stripping=true --features=dead_strip
+
+# iOS configs for each architecture and the fat binary builds.
+build:ios --apple_platform_type=ios
+build:ios --copt=-Wno-c++11-narrowing
+build:ios --apple_generate_dsym
+
+build:ios_arm64 --config=ios
+build:ios_arm64 --cpu=ios_arm64
+
+build:ios_i386 --config=ios
+build:ios_i386 --cpu=ios_i386
+
+build:ios_x86_64 --config=ios
+build:ios_x86_64 --cpu=ios_x86_64
+
+build:ios_fat --config=ios
+build:ios_fat --ios_multi_cpus=arm64,i386,x86_64
+
+# iOS devices
+
+build:ios_simulator --config=ios
+
+build:ios_device --config=ios_arm64
+
+# Put user-specific options in user.bazelrc
+try-import %workspace%/user.bazelrc

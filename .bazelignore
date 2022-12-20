@@ -1,0 +1,5 @@
+.assets/
+.swiftpm/
+.build/
+.github/
+fastlane/

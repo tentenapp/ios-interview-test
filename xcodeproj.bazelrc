@@ -1,0 +1,5 @@
+# Disabling archived bundles for fixture coverage
+build:rules_xcodeproj --define=environment=xcode-dev
+
+# Prevent cache invalidation when building from command line
+build:rules_xcodeproj --platform_suffix=xcode

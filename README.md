@@ -20,6 +20,11 @@ There are a few tasks to perform:
 - Implement a high performance friendlist
 - Implement a commonly found 'Settings' page, following a Figma design
 
+To get started:
+```sh
+make help
+```
+
 ## Important notes
 
 - Please, do not fork your solution in a public repository
@@ -27,6 +32,22 @@ There are a few tasks to perform:
 - This test is designed to challenge your knowledge of the Swift ecosystem, Swift itself and SwiftUI
 - Feel free to add any amount of testing, ...etc
 - It's okay if you don't do it all !
+
+## I never worked with Bazel, what should I do?
+
+You'll need to install `bazelisk`:
+
+```sh
+brew install bazelisk
+```
+
+You can then look at the `Makefile` to see how to invoke Bazel.
+
+## How do I open this with Xcode?
+
+```sh
+make help
+```
 
 ## Spontaneous applications
 
