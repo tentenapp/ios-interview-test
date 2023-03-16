@@ -10,15 +10,21 @@ import SwiftUI
 
 import Settings
 
-/// **Important:** You must not change the content of this file.
-
-struct Settings_Previews: PreviewProvider {
-  static var previews: some View {
+struct SettingsView: View {
+  var body: some View {
     SettingsScreen(user: UserModel(
       firstName: "Antoine",
       familyName: "Baché",
       status: "Just checking things out",
       joinedAt: Date(timeIntervalSince1970: 1_660_499_541)
     ))
+  }
+}
+
+/// **Important:** You must not change the content of this file.
+
+struct Settings_Previews: PreviewProvider {
+  static var previews: some View {
+    SettingsView()
   }
 }
